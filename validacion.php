@@ -20,6 +20,7 @@
         <div class="alert alert-info mt-3">
             <h1>Login conseguido</h1>
             <h4>Bienvenido, <?= $_SESSION['usuario'] ?></h4>
+            <p>Servidor: <?= gethostname() ?></p>
         </div>
             <h2>Opciones</h2>
             <ul>
