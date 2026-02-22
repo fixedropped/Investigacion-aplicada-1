@@ -1,9 +1,6 @@
-<!--Pagina principal para hacer el login-->
-<!--Iniciando PHP-->
 <?php
-//Iniciando sesión
 session_start();
-
+//Iniciando sesión
 // Array de usuarios simulados para hacer login
 $usuarios = [
     "usuario1@gmail.com" => "12345",
