@@ -21,6 +21,13 @@
             <h1>Login conseguido</h1>
             <h4>Bienvenido, <?= $_SESSION['usuario'] ?></h4>
         </div>
+            <h2>Opciones</h2>
+            <ul>
+                <li>Perfil</li>
+                <li>Configuración</li>
+                <li>Reportes</li>
+            </ul>
+            <button type="submit">Cerrar sesion</button>
     </div>
  </body>
  </html>
